@@ -12,15 +12,17 @@
  </style>
 </head>
 <body>
+
 <div id='map'></div>
 <script>
-mapboxgl.accessToken = '';
-var map = new mapboxgl.Map({
- container: 'map', // container id
- style: 'https://seelenn.github.io/brewdog-map/style.json', // stylesheet location
- center: [-1.25, 52.2], // starting position [lng, lat]
- zoom: 6 // starting zoom
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2Jpcm5pZSIsImEiOiJjanNzdmF3dHMxamRiNDRvMDB6OW13NnhtIn0.qFzh_sERe67wh00OWt1_UA';
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/cbirnie/cjuvomzc20ghd1fnwbt9xsp9b',
+  center: [-0.094118, 51.454727],
+  zoom: 10.2
 });
 </script>
+
 </body>
 </html>
